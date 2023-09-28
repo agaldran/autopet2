@@ -1,0 +1,26 @@
+# Ignore python local caching files
+__pycache__
+**.idea
+# Ignore notebook checkpoints
+**.ipynb_checkpoints
+#**.ipynb
+# Vim files and python caches
+*~
+*.swp
+*.pyc
+
+data/
+pretrained_weights/
+results/
+logs/
+docker_adrian/
+
+*.tar.gz
+*.zip
+*.pth
+*.pt
+*.npy
+*.npz
+*.pdf
+*.nii.gz
+#*.pickle
